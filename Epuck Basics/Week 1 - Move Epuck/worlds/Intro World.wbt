@@ -1,0 +1,41 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.15551305795456116 0.051238362787993846 -0.9865040896947296 2.5133175205611193
+  position 0.9900187396755656 0.8716073331539602 0.6499678401917028
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+Solid {
+  translation -0.22378599999999987 -0.13976299999999958 0.0999607600007123
+  rotation -0.9569382022423054 -0.20526723690017415 0.20526723690017407 1.6147985844725323
+  children [
+    Shape {
+      geometry Box {
+        size 0.2 0.2 0.2
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.2 0.2 0.2
+  }
+  physics Physics {
+    mass 0.1
+  }
+  linearVelocity -2.693413555262224e-17 1.8064413110543854e-16 -5.565965466303163e-12
+  angularVelocity -1.9984014443252814e-15 -3.330669073875466e-16 4.8448912529972014e-17
+}
+E-puck {
+  controller "epuck_go_forward"
+}
