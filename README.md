@@ -9,7 +9,7 @@ EPuck
 
 Tiago
 - The Tiago robot is a much more complex robot with LIDAR, optional arms, and cameras.
-- First I learned how to gather, transform, and store LIDAR point clouds.
+- First I learned how to use homogenous transformations to transform our LIDAR point clouds in world coordinates.
 - Using those point clouds to generate a probablistic map
 - Create a configuration space (cspace) using the probablistic map
 - Able to use pathfinding algorithms like A* to generate paths on the cspace
@@ -19,7 +19,7 @@ Tiago
 You can download the files here and open the .wbt file in the worlds folder to open it in webots and test it for yourself!
 (Assuming you have all the libraries installed: numpy, py_trees)
 
-I have attached a video of my final project with my commantary below, hope you enjoy!
+I have attached a video of my final project with my commantary of how it works below, hope you enjoy!
 
 https://github.com/user-attachments/assets/cef009b3-ae6f-48b4-a824-9549656b9b84
 
