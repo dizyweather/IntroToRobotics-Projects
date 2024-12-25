@@ -1,7 +1,7 @@
 Hello random viewer!
 
 This Repo is to show what I did in my intro to robotics class; programming and simulating robots in Webots! I'll give you a rundown of what I learned/did and a short video to see the simulation working.
-The majority of my code are located in the controllers file
+The majority of my code are located in the controllers folders
 
 EPuck
 - The Epuck Robot is a simple robot, a "puck" with 2 wheels
