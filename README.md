@@ -19,7 +19,7 @@ Tiago
 You can download the files here and open the .wbt file in the worlds folder to open it in webots and test it for yourself!
 (Assuming you have all the libraries installed: numpy, py_trees)
 
-I have attached a video of my final project below, hope you enjoy!
+I have attached a video of my final project with my commantary below, hope you enjoy!
 
 https://github.com/user-attachments/assets/cef009b3-ae6f-48b4-a824-9549656b9b84
 
